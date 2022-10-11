@@ -1,0 +1,176 @@
+
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dn {
+  display: none!important;
+}
+
+.db {
+  display: block!important;
+}
+
+.df {
+  display: flex!important;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+html, body {
+  background: #03887d;
+  color: #fff;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+
+
+.reset {
+  padding: 10px;
+  border-radius: 5px;
+  background: #ff3232;
+  border: none;
+  color: #fff;
+  width: 100%;
+  display: block;
+} 
+
+.reset:hover {
+  background: #ad0101;
+}
+
+.reset:active {
+  background: #ff3232;
+}
+
+.game_section {
+  width: 500px;
+  border: 1px solid #fff;
+  padding: 30px 20px;
+  position: relative;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Minecraft', sans-serif;
+  font-weight: normal;
+  position: absolute;
+  top: -25px;
+  background: #03887d;
+  padding: 10px;
+  text-align: center;
+}
+
+.game_input {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.game_input img {
+  width: 50px;
+}
+
+.user_input {
+  cursor: pointer;
+  display: 100%;
+  margin: 10px;
+  background: #a6ff00;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.user_input:hover {
+  background: #354713;
+}
+
+.user_input:active {
+  background: #a6ff00;
+}
+
+.game_output {
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.show_result {
+  color: #a6ff00;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.point {
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.round {
+  position: absolute;
+  bottom: -20px;
+  font-size: 1.01rem;
+  right: 10px;
+  background: #03887d;
+  padding: 10px;
+}
+
+#rount_counter {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #a6ff00;
+}
+
+
+#show_details {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.87rem;
+  background: #fff;
+  border-radius: 10px;
+  color: #03887d;
+  margin-bottom: 10px;
+}
+
+
+
+.try_section {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background:#03887d;
+  z-index: 100;
+  display: none;
+  top: 150px;
+}
+
+.card {
+  display: block;
+  width: 500px;
+  max-width: 100%!important;
+  position: absolute;
+  border: 1px solid #fff;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
