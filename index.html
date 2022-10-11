@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors Game</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="game_section" id="game_section">
+        <h1>Rock Paper Scissors</h1>
+        <div class="game_input">
+          <img
+            src="images/rock.png"
+            width="50px"
+            class="user_input"
+            id="rock"
+            alt="Rock"
+          />
+          <img
+            src="images/paper.png"
+            width="50px"
+            class="user_input"
+            id="paper"
+            alt="Paper"
+          />
+          <img
+            src="images/scissor.png"
+            width="50px"
+            class="user_input"
+            id="scissors"
+            alt="Scissors"
+          />
+        </div>
+        <div class="game_output">
+          <div id="show_details"></div>
+          <div class="show_result"><span id="result"></span></div>
+
+          <div class="point">
+            <div class="point">
+              User Points: <span id="user_points">0</span>
+            </div>
+            <div class="point">
+              Computer Points: <span id="com_points">0</span>
+            </div>
+          </div>
+
+          <div class="round">
+            Round <span id="rount_counter">0</span> Out of (5)
+          </div>
+        </div>
+      </section>
+      <section class="try_section" id="try_section">
+        Data wil populate here using js dom
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
